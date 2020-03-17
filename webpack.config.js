@@ -35,10 +35,12 @@ var immutableExternal = {
 
 var config = {
   externals: {
+    /*
     react: reactExternal,
     redux: reduxExternal,
     'react-redux': reactReduxExternal,
     immutable: immutableExternal
+    */
   },
   mode: 'development',
   module: {

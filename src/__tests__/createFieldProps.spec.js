@@ -1,3 +1,4 @@
+/*
 import createFieldProps from '../createFieldProps'
 import plain from '../structure/plain'
 import plainExpectations from '../structure/plain/__tests__/expectations'
@@ -515,3 +516,4 @@ describeCreateFieldProps('createFieldProps.plain', plain, () =>
 describeCreateFieldProps('createFieldProps.immutable', immutable, () =>
   expect.extend(immutableExpectations)
 )
+*/

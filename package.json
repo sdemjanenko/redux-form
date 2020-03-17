@@ -26,7 +26,8 @@
     "test": "cross-env NODE_ENV=test jest src --runInBand",
     "test:flow": "node scripts/patch-immutable-flow-error.js && flow check",
     "test:watch": "npm test -- --watch",
-    "test:cov": "npm run test -- --coverage"
+    "test:cov": "npm run test -- --coverage",
+    "test:zen": "zen"
   },
   "keywords": [
     "react",
@@ -116,7 +117,9 @@
     "uglifyjs-webpack-plugin": "^2.2.0",
     "webpack": "^4.41.5",
     "webpack-bundle-analyzer": "^3.6.0",
-    "webpack-cli": "^3.3.10"
+    "webpack-cli": "^3.3.10",
+    "@rogueg/zen": "*",
+    "webpack-dev-server": "^3.4"
   },
   "peerDependencies": {
     "react": "^16.4.0",
